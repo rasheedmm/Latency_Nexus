@@ -3,20 +3,44 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/black_cursor.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/btn_back.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/btn_stroked.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/card_backgrd.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/cart_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/cstm_hmbg.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic__new_search.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic__off.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic__orderscame.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_add.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_baseline_more_vert_24.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_cancel.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_cart.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_cart_ecommerce_price_tag_icon.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_chat_box.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_four_squares_line.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_home.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_paper_plane.xml" value="0.2105" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/ic_user.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/icon_backg_white.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/imag_back.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/lotgout_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/drawable-v24/my_prdcts_btn.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/activity_add_item.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/activity_home.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/activity_main.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/activity_slides.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/bottom_sheet_container_comments.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/bottomnav_editposts.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/fragment_profile.xml" value="0.1287037037037037" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/item_options.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/lottie.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/my_posts_item.xml" value="0.1287037037037037" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/price_round_back.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/profile_new_layout.xml" value="0.1" />
+        <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/layout/slide_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/menu/menu_post.xml" value="0.1" />
         <entry key="..\:/Users/Rasheed M/Documents/FlutterProjects/Latency_Nexus/app/src/main/res/menu/menubottom.xml" value="0.1" />
-        <entry key="..\:/Users/mohdm/StudioProjects/Latency_Nexus/app/src/main/res/layout/activity_slides.xml" value="0.1" />
-        <entry key="..\:/Users/mohdm/StudioProjects/Latency_Nexus/app/src/main/res/layout/slide_layout.xml" value="0.22327898550724637" />
       </map>
     </option>
   </component>

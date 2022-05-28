@@ -14,9 +14,10 @@ public class SliderActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_slides);
 
         mSlideViewPager = (ViewPager)findViewById(R.id.slideViewPager);
+       // mDotLayout = (LinearLayout)findViewById(R.id.dotsLayout);
         SliderAdapter sliderAdapter = new SliderAdapter(this);
         mSlideViewPager.setAdapter(sliderAdapter);
     }

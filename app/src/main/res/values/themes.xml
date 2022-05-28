@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Latency_Nexus" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.Latency_Nexus" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -28,4 +28,34 @@
     <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
         <item name="android:textColor">#00f</item>
     </style>
+
+
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/tranceperent</item>
+    </style>
+
+    <style name="expandedBarTextStyle" parent="Theme.Latency_Nexus">
+
+        <item name="android:textSize">0sp</item>
+        <item name="android:textColor">@color/tranceperent</item>
+
+
+    </style>
+    <style name="ThemeOverlay.ActionBar" parent="">
+        <item name="colorPrimary">#fff</item>
+    </style>
+
+    <style name="AppThemeBasenew" parent="Theme.MaterialComponents.DayNight">
+        <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
+        <item name="colorPrimary">@color/ligtcolor</item>
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+        <item name="colorPrimaryDark">#D1D1D1</item>
+        <item name="android:colorButtonNormal">#474747</item>
+        ...
+    </style>
+
+
 </resources>
