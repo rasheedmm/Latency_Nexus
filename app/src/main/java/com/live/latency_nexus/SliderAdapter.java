@@ -1,4 +1,4 @@
-package com.latency.nexus;
+package com.live.latency_nexus;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -50,7 +50,7 @@ public class SliderAdapter extends PagerAdapter {
     public Object instantiateItem(ViewGroup container, int position) {
         layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
         View view = layoutInflater.inflate(R.layout.slide_layout, container, false);
-        ImageView slideImageView = view.findViewById(R.id.slide image);
+        ImageView slideImageView = view.findViewById(R.id.slide_img);
         TextView slideleading = (TextView) view.findViewById(R.id.slide_heading);
         TextView slideDescription = (TextView) view.findViewById(R.id.slide_desc);
         slideImageView.setImageResource(slide_images[position]);
