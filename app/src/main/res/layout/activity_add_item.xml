@@ -10,24 +10,21 @@
     android:orientation="vertical"
     tools:context=".AddItemActivity">
 
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="Add Product"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@drawable/cstm_hmbg">
-
-        <TextView
-            android:id="@+id/textView33"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="10dp"
-            android:text="Add Product"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toTopOf="@+id/textView32"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"></TextView>
 
         <TextView
             android:id="@+id/textView32"
@@ -245,6 +242,7 @@
                         android:id="@+id/radioCod"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:clickable="false"
                         android:text="Cash On Delivery" />
 
                     <RadioButton
