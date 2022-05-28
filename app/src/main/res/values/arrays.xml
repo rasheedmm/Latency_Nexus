@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="id_activityScreenTitles">
+        <item></item>
+        <item> Home</item>
+        <item> Orders</item>
+        <item> Privacy Policy</item>
+        <item> Contact Us</item>
+        <item> Terms nd Conditions</item>
+        <item>Rate Us</item>
+        <item>Online Payment</item>
+        <item>Share App</item>
+
+        <item/>
+
+        <item>
+          Logout
+      </item>
+
+
+
+    </string-array>
+
+    <array name="id_activityScreenIcons">
+
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item>@drawable/ic_cancel</item>
+        <item></item>
+        <item>@drawable/ic_cancel</item>
+
+    </array>
+</resources>
