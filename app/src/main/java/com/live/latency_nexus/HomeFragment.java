@@ -89,6 +89,7 @@ public class HomeFragment extends Fragment {
     double distance;
     Query mdatabaseReference;
     String intrests;
+    TextView username;
     double lati1, lati2, longi1, longi2;
     AppBarLayout appBarLayout;
     CoordinatorLayout background;
@@ -110,6 +111,7 @@ public class HomeFragment extends Fragment {
         btn_search = view.findViewById(R.id.img_search);
         btn_chat = view.findViewById(R.id.img_chat);
         view_search = view.findViewById(R.id.btn_search);
+        username = view.findViewById(R.id.textView);
         view_chats = view.findViewById(R.id.btn_chat);
         view_menu = view.findViewById(R.id.menuicon);
         tv_near = view.findViewById(R.id.textView16);
@@ -175,6 +177,7 @@ public class HomeFragment extends Fragment {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 User values = snapshot.getValue(User.class);
                 if (snapshot.hasChild("username") || snapshot.hasChild("id")) {
+                    username.setText("Hi," + values.getUsername());
 
                 } else {
                     Toast.makeText(getContext(), "Something went wrong please sign in again", Toast.LENGTH_SHORT).show();

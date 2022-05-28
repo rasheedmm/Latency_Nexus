@@ -6,7 +6,7 @@
     android:id="@+id/background"
     android:layout_height="match_parent"
 
-
+    android:background="@drawable/cstm_bg"
     android:orientation="vertical"
     tools:context=".HomeFragment">
 
@@ -33,6 +33,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
+                android:background="@drawable/cstm_bg"
                 android:layout_height="180dp"
                 android:orientation="vertical"
 
@@ -46,7 +47,7 @@
                     android:layout_marginTop="73dp"
                     android:layout_weight="0"
 
-                    android:text="Welcome to GoodWill..."
+                    android:text="Hi,"
                     android:textColor="@color/textcolor"
                     android:textSize="20sp"
                     android:textStyle="bold"
