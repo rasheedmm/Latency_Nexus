@@ -20,6 +20,12 @@
         android:theme="@style/Theme.Latency_Nexus"
         tools:targetApi="31">
         <activity
+            android:name=".ImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KotActivity"
+            android:exported="false" />
+        <activity
             android:name=".AddItemActivity"
             android:exported="false" />
         <activity

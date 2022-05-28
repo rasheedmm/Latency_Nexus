@@ -68,8 +68,8 @@ public class HomeActivity extends AppCompatActivity implements DrawerAdapter.OnI
 
                     break;
                 case R.id.item3:
-                    /*Intent intent=new Intent(HomeActivity.this,AddItemActivity.class);
-                    startActivity(intent);*/
+                Intent intent=new Intent(HomeActivity.this,AddItemActivity.class);
+                    startActivity(intent);
                     break;
 
                 case R.id.item4:

@@ -123,7 +123,7 @@
                     android:background="#FFFFFF"
                     android:outlineAmbientShadowColor="@color/ligtcolor"
                     android:outlineSpotShadowColor="@color/maincolor"
-                    app:cardBackgroundColor="@color/browser_actions_bg_grey"
+
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
                     app:elevation="0dp">
@@ -144,7 +144,7 @@
                     android:background="#FFFFFF"
                     android:outlineAmbientShadowColor="@color/ligtcolor"
                     android:outlineSpotShadowColor="@color/maincolor"
-                    app:cardBackgroundColor="@color/browser_actions_bg_grey"
+
                     app:cardCornerRadius="8dp"
                     app:cardUseCompatPadding="true"
                     app:elevation="0dp">
