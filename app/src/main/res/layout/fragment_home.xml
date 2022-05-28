@@ -45,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="73dp"
                     android:layout_weight="0"
-                    android:fontFamily="@font/allerta"
+
                     android:text="Welcome to GoodWill..."
                     android:textColor="@color/textcolor"
                     android:textSize="20sp"

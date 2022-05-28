@@ -1,7 +1,7 @@
 package com.live.latency_nexus.Adapters;
-
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -45,6 +45,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.dynamiclinks.DynamicLink;
 import com.google.firebase.dynamiclinks.FirebaseDynamicLinks;
 import com.google.firebase.dynamiclinks.ShortDynamicLink;
+
 import com.live.latency_nexus.ImageActivity;
 import com.live.latency_nexus.Models.Comment;
 import com.live.latency_nexus.Models.MyPosts;

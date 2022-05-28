@@ -650,16 +650,7 @@ public class HomeFragment extends Fragment {
         });
     }
 
-    class MyFirebaseMessagingService extends FirebaseMessagingService {
 
-        public void onMessageReceived(RemoteMessage remoteMessage) {
-            if (remoteMessage.getData().size() > 0) {
-                Toast.makeText(getContext(), String.valueOf(remoteMessage.getData()), Toast.LENGTH_SHORT).show();
-            }
-        }
-
-
-    }
 
     private void addLocation() {
         Toast.makeText(getContext(), "Please select your place", Toast.LENGTH_SHORT).show();

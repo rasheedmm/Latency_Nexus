@@ -11,9 +11,8 @@ dependencyResolutionManagement {
         google()
         jcenter()
         mavenCentral()
-        maven {
-            url("$rootDir/..")
-        }
+        mavenCentral() // For ImagePicker library, this line is enough. Although, it has been published on jitpack as well
+        maven { url "https://jitpack.io" }
     }
 }
 rootProject.name = "Latency_Nexus"

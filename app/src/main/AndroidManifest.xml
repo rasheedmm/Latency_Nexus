@@ -50,6 +50,33 @@
         <meta-data
             android:name="com.razorpay.ApiKey"
             android:value="rzp_test_L47aOxY1gLvXM6" />
+
+        <service
+            android:name=".Notifications.MyFirebaseIdService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".Notifications.MyFirebaseMessaging"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.silicompressor.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+        </provider>
     </application>
+
+
 
 </manifest>
